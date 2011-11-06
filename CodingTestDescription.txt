@@ -1,0 +1,29 @@
+Coding Test for Mobile
+
+Overview: Implement a mobile application that retrieves information from a public API and displays it in an interactive way in the UI.
+
+Goals:
+
+- Build a functioning mobile application runnable in a simulator
+- The application should retrieve data from a public API over HTTP(s) in XML or JSON type format
+- The application should be able to interpret the data and display it in an interactive UI.
+- The UI should be interactive and show basic navigation and interaction functionality
+
+Example:
+Map application that shows cafe's within a configurable range from your current location.  User enters a distance in a field, say 2 miles, and clicks a button.  The application retrieves a list of cafe's in a 2 mile range and shows the list.  Clicking on a cafe opens a window that shows the location on a map.
+
+- Use Google Maps API: http://code.google.com/apis/maps/index.html
+- If you need an API key, let us know.
+
+You don't have to use this example if you have another idea, feel free to propose it.
+
+- What we'll be looking for beyond solid coding skills:
+- Create UI with various widgets and navigation.
+- Keep state
+- Retrieve and process remote data
+- Ability to create well written code that can easily be read/used/expanded upon by others.
+- Creativity. Have a bit of fun with it.
+- Feel free to show off in your area's you're good at!
+
+You have up to 90 minutes to work on it.  Good luck! (not that you'll need it ;-)
+ 
