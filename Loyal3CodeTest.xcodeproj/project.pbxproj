@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		253652871466B99F0037FBD3 /* Loyal3CodeTest-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 253652861466B99F0037FBD3 /* Loyal3CodeTest-Info.plist */; };
+		25F4E32E1461C27700C8902B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F4E32D1461C27700C8902B /* UIKit.framework */; };
+		25F4E3301461C27700C8902B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F4E32F1461C27700C8902B /* Foundation.framework */; };
+		25F4E3321461C27700C8902B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F4E3311461C27700C8902B /* CoreGraphics.framework */; };
+		25F4E3381461C27700C8902B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25F4E3361461C27700C8902B /* InfoPlist.strings */; };
+		25F4E33A1461C27700C8902B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F4E3391461C27700C8902B /* main.m */; };
+		25F4E33E1461C27700C8902B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F4E33D1461C27700C8902B /* AppDelegate.m */; };
+		25F4E3411461C27700C8902B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F4E3401461C27700C8902B /* ViewController.m */; };
+		25F4E3441461C27700C8902B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25F4E3421461C27700C8902B /* ViewController.xib */; };
+		25F4E3511461C29C00C8902B /* CodeTestMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F4E34F1461C29C00C8902B /* CodeTestMapView.m */; };
+		25F4E3521461C29C00C8902B /* CodeTestMapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25F4E3501461C29C00C8902B /* CodeTestMapView.xib */; };
+		25F4E3611461C2C400C8902B /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F4E3561461C2C400C8902B /* NSObject+SBJSON.m */; };
+		25F4E3621461C2C400C8902B /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F4E3581461C2C400C8902B /* NSString+SBJSON.m */; };
+		25F4E3631461C2C400C8902B /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F4E35A1461C2C400C8902B /* SBJSON.m */; };
+		25F4E3641461C2C400C8902B /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F4E35C1461C2C400C8902B /* SBJsonBase.m */; };
+		25F4E3651461C2C400C8902B /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F4E35E1461C2C400C8902B /* SBJsonParser.m */; };
+		25F4E3661461C2C400C8902B /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F4E3601461C2C400C8902B /* SBJsonWriter.m */; };
+		25F4E3751461C47D00C8902B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25F4E3741461C47D00C8902B /* MainWindow.xib */; };
+		25F4E37A1461C8DB00C8902B /* FetchStuff.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F4E3791461C8DB00C8902B /* FetchStuff.m */; };
+		25F4E37C1461D44A00C8902B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F4E37B1461D44A00C8902B /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		253652861466B99F0037FBD3 /* Loyal3CodeTest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Loyal3CodeTest-Info.plist"; sourceTree = "<group>"; };
+		25F4E3291461C27700C8902B /* Loyal3CodeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Loyal3CodeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25F4E32D1461C27700C8902B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		25F4E32F1461C27700C8902B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25F4E3311461C27700C8902B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		25F4E3371461C27700C8902B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25F4E3391461C27700C8902B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25F4E33B1461C27700C8902B /* Loyal3CodeTestN-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Loyal3CodeTestN-Prefix.pch"; sourceTree = "<group>"; };
+		25F4E33C1461C27700C8902B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25F4E33D1461C27700C8902B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25F4E33F1461C27700C8902B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		25F4E3401461C27700C8902B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		25F4E3431461C27700C8902B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		25F4E34E1461C29C00C8902B /* CodeTestMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeTestMapView.h; sourceTree = "<group>"; };
+		25F4E34F1461C29C00C8902B /* CodeTestMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeTestMapView.m; sourceTree = "<group>"; };
+		25F4E3501461C29C00C8902B /* CodeTestMapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CodeTestMapView.xib; sourceTree = "<group>"; };
+		25F4E3541461C2C400C8902B /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		25F4E3551461C2C400C8902B /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		25F4E3561461C2C400C8902B /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		25F4E3571461C2C400C8902B /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		25F4E3581461C2C400C8902B /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		25F4E3591461C2C400C8902B /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		25F4E35A1461C2C400C8902B /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		25F4E35B1461C2C400C8902B /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		25F4E35C1461C2C400C8902B /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		25F4E35D1461C2C400C8902B /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		25F4E35E1461C2C400C8902B /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		25F4E35F1461C2C400C8902B /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		25F4E3601461C2C400C8902B /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		25F4E3741461C47D00C8902B /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		25F4E3781461C8DB00C8902B /* FetchStuff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FetchStuff.h; sourceTree = "<group>"; };
+		25F4E3791461C8DB00C8902B /* FetchStuff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FetchStuff.m; sourceTree = "<group>"; };
+		25F4E37B1461D44A00C8902B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25F4E3261461C27700C8902B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F4E32E1461C27700C8902B /* UIKit.framework in Frameworks */,
+				25F4E3301461C27700C8902B /* Foundation.framework in Frameworks */,
+				25F4E3321461C27700C8902B /* CoreGraphics.framework in Frameworks */,
+				25F4E37C1461D44A00C8902B /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25F4E31E1461C27700C8902B = {
+			isa = PBXGroup;
+			children = (
+				25F4E3331461C27700C8902B /* Loyal3CodeTest */,
+				25F4E32C1461C27700C8902B /* Frameworks */,
+				25F4E32A1461C27700C8902B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25F4E32A1461C27700C8902B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25F4E3291461C27700C8902B /* Loyal3CodeTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25F4E32C1461C27700C8902B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25F4E37B1461D44A00C8902B /* MapKit.framework */,
+				25F4E32D1461C27700C8902B /* UIKit.framework */,
+				25F4E32F1461C27700C8902B /* Foundation.framework */,
+				25F4E3311461C27700C8902B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25F4E3331461C27700C8902B /* Loyal3CodeTest */ = {
+			isa = PBXGroup;
+			children = (
+				25F4E33C1461C27700C8902B /* AppDelegate.h */,
+				25F4E33D1461C27700C8902B /* AppDelegate.m */,
+				25F4E34E1461C29C00C8902B /* CodeTestMapView.h */,
+				25F4E34F1461C29C00C8902B /* CodeTestMapView.m */,
+				25F4E3501461C29C00C8902B /* CodeTestMapView.xib */,
+				25F4E3781461C8DB00C8902B /* FetchStuff.h */,
+				25F4E3791461C8DB00C8902B /* FetchStuff.m */,
+				25F4E3741461C47D00C8902B /* MainWindow.xib */,
+				25F4E33F1461C27700C8902B /* ViewController.h */,
+				25F4E3401461C27700C8902B /* ViewController.m */,
+				25F4E3421461C27700C8902B /* ViewController.xib */,
+				25F4E3531461C2C400C8902B /* JSON */,
+				25F4E3341461C27700C8902B /* Supporting Files */,
+			);
+			path = Loyal3CodeTest;
+			sourceTree = "<group>";
+		};
+		25F4E3341461C27700C8902B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				253652861466B99F0037FBD3 /* Loyal3CodeTest-Info.plist */,
+				25F4E3361461C27700C8902B /* InfoPlist.strings */,
+				25F4E3391461C27700C8902B /* main.m */,
+				25F4E33B1461C27700C8902B /* Loyal3CodeTestN-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25F4E3531461C2C400C8902B /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				25F4E3541461C2C400C8902B /* JSON.h */,
+				25F4E3551461C2C400C8902B /* NSObject+SBJSON.h */,
+				25F4E3561461C2C400C8902B /* NSObject+SBJSON.m */,
+				25F4E3571461C2C400C8902B /* NSString+SBJSON.h */,
+				25F4E3581461C2C400C8902B /* NSString+SBJSON.m */,
+				25F4E3591461C2C400C8902B /* SBJSON.h */,
+				25F4E35A1461C2C400C8902B /* SBJSON.m */,
+				25F4E35B1461C2C400C8902B /* SBJsonBase.h */,
+				25F4E35C1461C2C400C8902B /* SBJsonBase.m */,
+				25F4E35D1461C2C400C8902B /* SBJsonParser.h */,
+				25F4E35E1461C2C400C8902B /* SBJsonParser.m */,
+				25F4E35F1461C2C400C8902B /* SBJsonWriter.h */,
+				25F4E3601461C2C400C8902B /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25F4E3281461C27700C8902B /* Loyal3CodeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25F4E3471461C27700C8902B /* Build configuration list for PBXNativeTarget "Loyal3CodeTest" */;
+			buildPhases = (
+				25F4E3251461C27700C8902B /* Sources */,
+				25F4E3261461C27700C8902B /* Frameworks */,
+				25F4E3271461C27700C8902B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Loyal3CodeTest;
+			productName = Loyal3CodeTest;
+			productReference = 25F4E3291461C27700C8902B /* Loyal3CodeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25F4E3201461C27700C8902B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Try To Guess My Company Name";
+			};
+			buildConfigurationList = 25F4E3231461C27700C8902B /* Build configuration list for PBXProject "Loyal3CodeTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25F4E31E1461C27700C8902B;
+			productRefGroup = 25F4E32A1461C27700C8902B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25F4E3281461C27700C8902B /* Loyal3CodeTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25F4E3271461C27700C8902B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F4E3381461C27700C8902B /* InfoPlist.strings in Resources */,
+				25F4E3441461C27700C8902B /* ViewController.xib in Resources */,
+				25F4E3521461C29C00C8902B /* CodeTestMapView.xib in Resources */,
+				25F4E3751461C47D00C8902B /* MainWindow.xib in Resources */,
+				253652871466B99F0037FBD3 /* Loyal3CodeTest-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25F4E3251461C27700C8902B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F4E33A1461C27700C8902B /* main.m in Sources */,
+				25F4E33E1461C27700C8902B /* AppDelegate.m in Sources */,
+				25F4E3411461C27700C8902B /* ViewController.m in Sources */,
+				25F4E3511461C29C00C8902B /* CodeTestMapView.m in Sources */,
+				25F4E3611461C2C400C8902B /* NSObject+SBJSON.m in Sources */,
+				25F4E3621461C2C400C8902B /* NSString+SBJSON.m in Sources */,
+				25F4E3631461C2C400C8902B /* SBJSON.m in Sources */,
+				25F4E3641461C2C400C8902B /* SBJsonBase.m in Sources */,
+				25F4E3651461C2C400C8902B /* SBJsonParser.m in Sources */,
+				25F4E3661461C2C400C8902B /* SBJsonWriter.m in Sources */,
+				25F4E37A1461C8DB00C8902B /* FetchStuff.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25F4E3361461C27700C8902B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25F4E3371461C27700C8902B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25F4E3421461C27700C8902B /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25F4E3431461C27700C8902B /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25F4E3451461C27700C8902B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Loyal3CodeTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		25F4E3461461C27700C8902B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Loyal3CodeTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25F4E3481461C27700C8902B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Loyal3CodeTest/Loyal3CodeTestN-Prefix.pch";
+				INFOPLIST_FILE = "Loyal3CodeTest/Loyal3CodeTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25F4E3491461C27700C8902B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Loyal3CodeTest/Loyal3CodeTestN-Prefix.pch";
+				INFOPLIST_FILE = "Loyal3CodeTest/Loyal3CodeTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25F4E3231461C27700C8902B /* Build configuration list for PBXProject "Loyal3CodeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F4E3451461C27700C8902B /* Debug */,
+				25F4E3461461C27700C8902B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25F4E3471461C27700C8902B /* Build configuration list for PBXNativeTarget "Loyal3CodeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F4E3481461C27700C8902B /* Debug */,
+				25F4E3491461C27700C8902B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25F4E3201461C27700C8902B /* Project object */;
+}
